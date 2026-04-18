@@ -114,7 +114,8 @@ function mostrarToast(mensagem, tempo) {
 function abrirCheckout() {
     if(carrinho.length === 0) return alert("Seu carrinho está vazio!");
     
-    let texto = "Olá LuviLet3D! Gostaria de encomendar os seguintes itens:\n\n";
+    //let texto = "Olá LuviLet3D! Gostaria de encomendar os seguintes itens:\n\n";
+    let texto = "Olá! Gostaria de encomendar os seguintes itens:\n\n";
     let total = 0;
     
     carrinho.forEach((item, i) => {
