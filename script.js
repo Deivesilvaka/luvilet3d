@@ -10,7 +10,7 @@ const normalizar = (txt) => txt.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
 
 // 2. Carregar dados e ler URL
 async function init() {
-    const resp = await fetch('data.json');
+    const resp = await fetch('data.json?t=' + new Date().getTime());
     const data = await resp.json();
     produtosData = data.produtos;
 
