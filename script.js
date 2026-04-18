@@ -214,7 +214,7 @@ function abrirModalEnd() { document.getElementById('modal-endereco').style.displ
 function fecharModalEnd() { document.getElementById('modal-endereco').style.display = 'none'; }
 
 function limparFormEnd() {
-    ['end-cep', 'end-rua', 'end-numero', 'end-bairro', 'end-cidade'].forEach(id => {
+    ['end-cep', 'end-rua', 'end-numero','end-complemento', 'end-bairro', 'end-cidade'].forEach(id => {
         document.getElementById(id).value = "";
     });
     limparEnderecoSalvo();
@@ -230,6 +230,7 @@ function salvarEndereco() {
     const end = {
         rua: document.getElementById('end-rua').value,
         num: document.getElementById('end-numero').value,
+        comp: document.getElementById('end-complemento').value,
         bairro: document.getElementById('end-bairro').value,
         cidade: document.getElementById('end-cidade').value,
         cep: document.getElementById('end-cep').value
@@ -268,7 +269,9 @@ function abrirCheckout() {
     const endSalvo = localStorage.getItem('luvilet_endereco');
     if (endSalvo) {
         const e = JSON.parse(endSalvo);
-        resumo += `\n*Entrega:* ${e.rua}, ${e.num} - ${e.bairro}, ${e.cidade} (CEP: ${e.cep})`;
+
+        const complementoStr = e.comp ? ` (${e.comp})` : "";
+        resumo += `\n*Entrega:* ${e.rua}, ${e.num}${complementoStr} - ${e.bairro}, ${e.cidade} (CEP: ${e.cep})`;
     } else {
         resumo += `\n*Entrega:* Retirada a combinar.`;
     }
