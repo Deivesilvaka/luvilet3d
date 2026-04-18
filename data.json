@@ -1,13 +1,37 @@
 {
-  "categorias": ["Teste"],
-  "parceiros": ["Teste"],
+  "categorias": ["Pet", "Casa", "Action Figure"],
+  "parceiros": ["LuviLet3D", "Tempest Kid"],
   "produtos": [
     {
       "id": 1,
       "nome": "Nome Teste",
-      "categoria": "Teste",
-      "parceiro": "Teste",
-      "preco": 1,
+      "categoria": "Pet",
+      "parceiro": "LuviLet3D",
+      "preco": 2,
+      "imagem": "assets/logo.png"
+    },
+    {
+      "id": 2,
+      "nome": "Nome Teste 2",
+      "categoria": "Action Figure",
+      "parceiro": "Tempest Kid",
+      "preco": 14,
+      "imagem": "assets/logo.png"
+    },
+    {
+      "id": 3,
+      "nome": "Nome Teste 3",
+      "categoria": "Casa",
+      "parceiro": "LuviLet3D",
+      "preco": 5,
+      "imagem": "assets/logo.png"
+    },
+    {
+      "id": 4,
+      "nome": "Nome Teste 4",
+      "categoria": "Casa",
+      "parceiro": "LuviLet3D",
+      "preco": 13,
       "imagem": "assets/logo.png"
     }
   ]
