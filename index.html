@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuviLet3D | Catálogo de Impressões</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <img src="assets/logo.png" alt="LuviLet3D Logo" class="logo">
+    <div class="search-bar">
+        <input type="text" id="busca" placeholder="Pesquisar produto (ex: agua)..." oninput="filtrar()">
+        <select id="filtroCat" onchange="filtrar()">
+            <option value="">Todas as Categorias</option>
+        </select>
+        <select id="filtroParceiro" onchange="filtrar()">
+            <option value="">Todos os Parceiros</option>
+        </select>
+    </div>
+</header>
+
+<main id="catalogo" class="grid-produtos">
+    </main>
+
+<div id="carrinho-flutuante" onclick="abrirModalCart()">
+    🛒 <span id="cart-count">0</span> itens
+</div>
+
+<div id="modal-quantidade" class="modal">
+    <div class="modal-content">
+        <h3>Quantidade</h3>
+        <p id="nome-prod-modal"></p>
+        <input type="number" id="input-qtd" value="1" min="1">
+        <div class="modal-btns">
+            <button class="btn-confirmar" onclick="confirmarAdicao()">Adicionar</button>
+            <button class="btn-cancelar" onclick="fecharModal()">Cancelar</button>
+        </div>
+    </div>
+</div>
+
+<div id="toast"></div>
+
+<div id="modal-cart" class="modal">
+    <div class="modal-content" style="width: 90%; max-width: 500px;">
+        <h3>Seu Carrinho</h3>
+        <div id="lista-carrinho" style="max-height: 300px; overflow-y: auto; margin-bottom: 20px;">
+            </div>
+        <div id="total-carrinho" style="font-weight: bold; font-size: 1.2rem; margin-bottom: 20px; color: var(--laranja);">
+            Total: R$ 0,00
+        </div>
+        <div class="modal-btns-vertical" style="display: flex; flex-direction: column; gap: 10px;">
+            <button class="btn-confirmar" onclick="abrirCheckout()">Confirmar Checkout (WhatsApp)</button>
+            <button class="btn-cancelar" style="background: #555; color: white;" onclick="fecharCart()">Continuar Comprando</button>
+            <button class="btn-cancelar" style="background: #d9534f; color: white;" onclick="limparCarrinho()">Limpar Carrinho</button>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

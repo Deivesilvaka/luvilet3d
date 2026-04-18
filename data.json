@@ -1,0 +1,14 @@
+{
+  "categorias": ["Teste"],
+  "parceiros": ["Teste"],
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Nome Teste",
+      "categoria": "Teste",
+      "parceiro": "Teste",
+      "preco": 0,
+      "imagem": "assets/logo.png"
+    }
+  ]
+}
