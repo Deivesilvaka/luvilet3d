@@ -2,6 +2,9 @@ let produtosData = [];
 let carrinho = [];
 let itemPendente = null; // Guarda o produto que está sendo configurado no modal
 
+// Limpa o armazenamento local sempre que o site inicia (se você quiser um reset total)
+localStorage.clear();
+
 // 1. Normalização para busca sem acentos
 const normalizar = (txt) => txt.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
