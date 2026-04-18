@@ -53,6 +53,52 @@
         <div id="total-carrinho" style="font-weight: bold; font-size: 1.2rem; margin-bottom: 20px; color: var(--laranja);">
             Total: R$ 0,00
         </div>
+        <div id="modal-endereco" class="modal">
+            <div class="modal-content largo"> <h3 style="color: var(--preto); border-bottom: 2px solid var(--laranja); padding-bottom: 10px;">
+                    📍 Cadastrar Endereço
+                </h3>
+                
+                <div class="form-endereco">
+                    <div class="row">
+                        <input type="text" id="end-cep" placeholder="CEP (Apenas números)" onblur="buscarCEP()" style="flex: 2;">
+                        <input type="text" id="end-numero" placeholder="Nº" style="flex: 1;">
+                    </div>
+                    
+                    <input type="text" id="end-rua" placeholder="Rua / Logradouro">
+                    <input type="text" id="end-bairro" placeholder="Bairro">
+                    <input type="text" id="end-cidade" placeholder="Cidade - UF" readonly style="background: #eee; cursor: not-allowed;">
+                    
+                    <div class="modal-btns" style="margin-top: 15px;">
+                        <button class="btn-confirmar" onclick="salvarEndereco()">Salvar Endereço</button>
+                        <button class="btn-cancelar" style="background:#888; color: white;" onclick="limparFormEnd()">Limpar</button>
+                        <button class="btn-cancelar" onclick="fecharModalEnd()">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="checkout-opcoes" style="text-align: left; padding: 10px; border-top: 1px solid #ddd;">
+            <label><b>Forma de Pagamento:</b></label><br>
+            <select id="forma-pagamento" onchange="toggleParcelas()" style="width: 100%; margin: 5px 0;">
+                <option value="Pix">Pix</option>
+                <option value="Crédito">Cartão de Crédito</option>
+            </select>
+            
+            <div id="div-parcelas" style="display:none;">
+                <label>Parcelas:</label>
+                <select id="qtd-parcelas" style="width: 100%; margin: 5px 0;">
+                    <option value="1">1x (à vista)</option>
+                    <option value="2">2x</option>
+                    <option value="3">3x</option>
+                </select>
+            </div>
+
+            <div id="sessao-endereco" style="margin-top: 10px;">
+                <label><b>Entrega:</b></label>
+                <div id="end-selecionado" style="font-size: 0.85rem; color: #666; margin: 5px 0;">Nenhum endereço cadastrado.</div>
+                <button class="btn-add" style="font-size: 0.7rem; padding: 5px;" onclick="abrirModalEnd()">+ Endereço</button>
+            </div>
+        </div>
         <div class="modal-btns-vertical" style="display: flex; flex-direction: column; gap: 10px;">
             <button class="btn-confirmar" onclick="abrirCheckout()">Confirmar Checkout (WhatsApp)</button>
             <button class="btn-cancelar" style="background: #555; color: white;" onclick="fecharCart()">Continuar Comprando</button>
