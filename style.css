@@ -197,3 +197,29 @@ input, select {
     
     margin-top: auto; 
 }
+
+/* Ajuste para modais maiores (como o de Endereço) */
+.modal-content.largo {
+    width: 95%;
+    max-width: 500px; /* Aumentamos de 300px para 500px */
+    padding: 25px;
+}
+
+/* Organização dos inputs dentro do formulário de endereço */
+.form-endereco {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.form-endereco input {
+    width: 100% !important; /* Força os inputs a ocuparem a largura total */
+    box-sizing: border-box;
+}
+
+/* Opcional: Colocar CEP e Número lado a lado se quiser economizar espaço vertical */
+.row {
+    display: flex;
+    gap: 10px;
+}
