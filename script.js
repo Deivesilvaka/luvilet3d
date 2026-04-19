@@ -55,13 +55,13 @@ function filtrar() {
 // 4. Renderizar Cards
 function render(lista) {
     const container = document.getElementById('catalogo');
-    container.innerHTML = lista.map(p => `
+    container.innerHTML = lista.sort(() => Math.random() - 0.5).map(p => `
         <div class="card">
             <img src="${p.imagem}" alt="${p.nome}">
             <div class="card-info">
                 <h3>${p.nome}</h3>
                 <p class="price">R$ ${p.preco.toFixed(2)}</p>
-                <small>${p.categoria} | ${p.parceiro}</small>
+                <small>${p.categoria} | ${p?.parceiro ? p.parceiro : "LuviLet3D"}</small>
             </div>
             <button class="btn-add" onclick="addCart(${p.id})">Adicionar</button>
         </div>
