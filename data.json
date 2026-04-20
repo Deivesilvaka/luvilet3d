@@ -1,5 +1,5 @@
 {
-  "categorias": ["Pet", "Ferramentas", "Utilitários", "Chaveiros", "Cozinha", "Brinquedos", "Decoração"],
+  "categorias": ["Pet", "Ferramentas", "Utilitários", "Chaveiros", "Cozinha", "Brinquedos", "Decoração", "Segurança"],
   "parceiros": ["LuviLet3D"],
   "produtos": [
     {
@@ -14,6 +14,7 @@
       "id": 2,
       "nome": "Comedouro Enclinado para Cachorros e Gatos",
       "categoria": "Pet",
+      "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/comedouro_enclinado.jpg"
     },
@@ -21,6 +22,7 @@
       "id": 3,
       "nome": "Braçadeira de Montagem para Mesas",
       "categoria": "Ferramentas",
+      "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/bracadeira.png"
     },
@@ -28,6 +30,7 @@
       "id": 4,
       "nome": "Braço Mecânico para Celulares e Tablets",
       "categoria": "Utilitários",
+      "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/braco mecanico.png"
     },
@@ -35,6 +38,7 @@
       "id": 5,
       "nome": "Caixa Organizadora Pequena",
       "categoria": "Utilitários",
+      "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/caixa modelo 2.png"
     },
@@ -42,6 +46,7 @@
       "id": 6,
       "nome": "Caixas Organizadora Tamanhos a Variados",
       "categoria": "Utilitários",
+      "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/caixas variadas.jpg"
     },
@@ -49,6 +54,7 @@
       "id": 7,
       "nome": "Chave de Acesso para Manutenção de Registro",
       "categoria": "Ferramentas",
+      "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/chave de registro.png"
     },
@@ -56,6 +62,7 @@
       "id": 8,
       "nome": "Chaveiro Copo para Batom",
       "categoria": "Chaveiros",
+      "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/chaveiro copo.png"
     },
@@ -63,6 +70,7 @@
       "id": 9,
       "nome": "Cortador de Biscoitos Alfabeto",
       "categoria": "Cozinha",
+      "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/cortador_biscoito_alfabeto.png"
     },
@@ -70,6 +78,7 @@
       "id": 10,
       "nome": "Cortador de Biscoitos Minecraft",
       "categoria": "Cozinha",
+      "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/cortador_biscoito_minecraft.png"
     },
@@ -77,6 +86,7 @@
       "id": 11,
       "nome": "Cortador de Biscoitos Minecraft",
       "categoria": "Cozinha",
+      "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/cortador_biscoito_minecraft_conjunto_2.png"
     },
@@ -84,6 +94,7 @@
       "id": 12,
       "nome": "Cortador de Biscoitos Dinossauros",
       "categoria": "Cozinha",
+      "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/cortador_biscoitos_dinos.png"
     },
@@ -91,6 +102,7 @@
       "id": 13,
       "nome": "Cortador de Biscoitos Pascoa",
       "categoria": "Cozinha",
+      "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/cortador_biscoitos_pascoa.png"
     },
@@ -98,6 +110,7 @@
       "id": 14,
       "nome": "Boneco Articulado Humanoide Montável",
       "categoria": "Brinquedos",
+      "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/dummy.jpg"
     },
@@ -105,6 +118,7 @@
       "id": 15,
       "nome": "Boneco Articulado Cachorro Montável",
       "categoria": "Brinquedos",
+      "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/dummy_dog.jpg"
     },
@@ -112,6 +126,7 @@
       "id": 16,
       "nome": "Gancho para Mesa",
       "categoria": "Utilitários",
+      "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/gancho bolsa.png"
     },
@@ -119,6 +134,7 @@
       "id": 17,
       "nome": "Gancho para Mesa + Braçadeira de Montagem",
       "categoria": "Utilitários",
+      "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/gancho bolsa 2.png"
     },
@@ -126,6 +142,7 @@
       "id": 18,
       "nome": "Gancho Inferior para Mesa + Braçadeiras de Montagem",
       "categoria": "Utilitários",
+      "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/gancho filtro de linha.png"
     },
@@ -133,6 +150,7 @@
       "id": 19,
       "nome": "Porta Cabos + Braçadeira de Montagem",
       "categoria": "Utilitários",
+      "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/porta cabos.png"
     },
@@ -140,6 +158,7 @@
       "id": 20,
       "nome": "Porta Copo + Braçadeiras de Montagem",
       "categoria": "Utilitários",
+      "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/porta copo.png"
     },
@@ -147,6 +166,7 @@
       "id": 21,
       "nome": "Jarro para Plantas Autoirrigante",
       "categoria": "Decoração",
+      "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/jarro autoirrigante.png"
     },
@@ -154,8 +174,81 @@
       "id": 22,
       "nome": "Decoração para Parede Passaros Voando",
       "categoria": "Decoração",
+      "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/passaros voando.png"
+    },
+    {
+      "id": 23,
+      "nome": "Decoração Gato Subindo Escadas",
+      "categoria": "Decoração",
+      "parceiro": "LuviLet3D",
+      "preco": 1,
+      "imagem": "assets/products/gato escada.png"
+    },
+    {
+      "id": 24,
+      "nome": "Decoração Gato Low Poly",
+      "categoria": "Decoração",
+      "parceiro": "LuviLet3D",
+      "preco": 1,
+      "imagem": "assets/products/gato low poly.png"
+    },
+    {
+      "id": 25,
+      "nome": "Decoração Gato Bandeija",
+      "categoria": "Decoração",
+      "parceiro": "LuviLet3D",
+      "preco": 1,
+      "imagem": "assets/products/gato_bandeija.png"
+    },
+    {
+      "id": 26,
+      "nome": "Suporte de Sacolas Antiqueda",
+      "categoria": "Utilitários",
+      "parceiro": "LuviLet3D",
+      "preco": 1,
+      "imagem": "assets/products/suporte de sacola anti queda.png"
+    },
+    {
+      "id": 27,
+      "nome": "Caixa para Baralho Mel Escorrendo",
+      "categoria": "Utilitários",
+      "parceiro": "LuviLet3D",
+      "preco": 1,
+      "imagem": "assets/products/caixa baralho.png"
+    },
+    {
+      "id": 28,
+      "nome": "Caixa para Baralho, Uno, Cardgame e outros",
+      "categoria": "Utilitários",
+      "parceiro": "LuviLet3D",
+      "preco": 1,
+      "imagem": "assets/products/caixa uno.png"
+    },
+    {
+      "id": 29,
+      "nome": "Apito de Bolso, Apito de Segurança",
+      "categoria": "Segurança",
+      "parceiro": "LuviLet3D",
+      "preco": 1,
+      "imagem": "assets/products/apito.png"
+    },
+    {
+      "id": 30,
+      "nome": "Organizador de Cabos",
+      "categoria": "Utilitários",
+      "parceiro": "LuviLet3D",
+      "preco": 1,
+      "imagem": "assets/products/cabo rotatorio.png"
+    },
+    {
+      "id": 31,
+      "nome": "Organizador de Cabos Presilha",
+      "categoria": "Utilitários",
+      "parceiro": "LuviLet3D",
+      "preco": 1,
+      "imagem": "assets/products/cabo presilia.png"
     }
   ]
 }
