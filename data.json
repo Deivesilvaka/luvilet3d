@@ -1,7 +1,39 @@
 {
-  "categorias": ["Pet", "Ferramentas", "Utilitários", "Chaveiros", "Cozinha", "Brinquedos", "Decoração", "Segurança"],
+  "categorias": ["Pet", "Ferramentas", "Utilitários", "Chaveiros", "Cozinha", "Banheiro", "Brinquedos", "Decoração", "Segurança"],
   "parceiros": ["LuviLet3D"],
   "produtos": [
+    {
+      "id": 35,
+      "nome": "Trava de Gavetas para Crinças e Pets",
+      "categoria": "Segurança",
+      "parceiro": "LuviLet3D",
+      "preco": 1,
+      "imagem": "assets/products/trava infantil.png"
+    },
+    {
+      "id": 34,
+      "nome": "Suportes para Barbeador",
+      "categoria": "Banheiro",
+      "parceiro": "LuviLet3D",
+      "preco": 1,
+      "imagem": "assets/products/suporte barbeador.png"
+    },
+    {
+      "id": 33,
+      "nome": "Suportes para Barbeador e Escova de Dentes",
+      "categoria": "Banheiro",
+      "parceiro": "LuviLet3D",
+      "preco": 1,
+      "imagem": "assets/products/suporte simples escova de dentes e barbeador.png"
+    },
+    {
+      "id": 32,
+      "nome": "Separador de Gemas e Claras de Ovos",
+      "categoria": "Cozinha",
+      "parceiro": "LuviLet3D",
+      "preco": 1,
+      "imagem": "assets/products/separador ovo.png"
+    },
     {
       "id": 1,
       "nome": "Comedouro e Tigela Elevado para Cachorros e Gatos",
@@ -30,6 +62,7 @@
       "id": 4,
       "nome": "Braço Mecânico para Celulares e Tablets",
       "categoria": "Utilitários",
+      "pixDiscount": true,
       "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/braco mecanico.png"
@@ -249,6 +282,6 @@
       "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/cabo presilia.png"
-    }
+    }    
   ]
 }
