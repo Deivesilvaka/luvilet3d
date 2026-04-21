@@ -125,6 +125,7 @@ function fecharCart() {
 
 // Renderizar os itens dentro do carrinho com foto, qtd e preço
 function renderizarCarrinho() {
+    toggleParcelas();
     const lista = document.getElementById('lista-carrinho');
     const totalElement = document.getElementById('total-carrinho');
     
@@ -153,7 +154,7 @@ function renderizarCarrinho() {
         `;
     }).join('');
 
-    totalElement.innerText = `Total: R$ ${totalGeral.toFixed(2)}`;
+    totalElement.innerText = `Total: R$ ${totalGeral.toFixed(2)} no  Crédito ou R$ ${(totalGeral - (totalGeral * 0.05)).toFixed(2)} no Pix`;
     document.getElementById('cart-count').innerText = carrinho.reduce((a, b) => a + b.qtd, 0);
 }
 
@@ -259,7 +260,7 @@ function abrirCheckout() {
     if(carrinho.length === 0) return alert("Seu carrinho está vazio!");
     
     let total = 0;
-    let resumo = "Olá! Novo pedido:\n\n";
+    let resumo = "Olá! Nova encomenda:\n\n";
     
     carrinho.forEach(item => {
         resumo += `- ${item.id}: ${item.nome} (Qtd: ${item.qtd}): R$ ${(item.preco * item.qtd).toFixed(2)}\n`;
@@ -279,7 +280,7 @@ function abrirCheckout() {
     const pag = document.getElementById('forma-pagamento').value;
     const parc = document.getElementById('qtd-parcelas').value;
     resumo += `\n\n*Pagamento:* ${pag}${pag === 'Crédito' ? ' (' + parc + 'x)' : ''}`;
-    resumo += `\n*Total:* R$ ${total.toFixed(2)}`;
+    resumo += `\n*Total:* R$ ${pag === "Crédito" ? total.toFixed(2) : (total - (total * 0.05))}`;
     
     const fone = "5585989951767";
     window.open(`https://api.whatsapp.com/send?phone=${fone}&text=${encodeURIComponent(resumo)}`);
