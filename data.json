@@ -1,7 +1,52 @@
 {
-  "categorias": ["Pet", "Ferramentas", "Utilitários", "Chaveiros", "Cozinha", "Banheiro", "Brinquedos", "Decoração", "Segurança"],
+  "categorias": ["Ferramentas", "Utilitários", "Suportes", "Brinquedos"],
   "parceiros": ["LuviLet3D"],
   "produtos": [
+    {
+      "id": 40,
+      "nome": "Suporte de Parede para Controle e fone ou Controle",
+      "categoria": "Suportes",
+      "parceiro": "LuviLet3D",
+      "isActive":true,
+      "preco": 20,
+      "imagem": "assets/products/suporte controle fone.png"
+    },
+    {
+      "id": 39,
+      "nome": "Suporte de Parede para Dois controles",
+      "categoria": "Suportes",
+      "parceiro": "LuviLet3D",
+      "isActive":true,
+      "preco": 30,
+      "imagem": "assets/products/suporte dois controles.png"
+    },
+    {
+      "id": 38,
+      "nome": "Paleta de Cores para Pintura 10 Cores",
+      "categoria": "Utilitários",
+      "parceiro": "LuviLet3D",
+      "isActive":true,
+      "preco": 13,
+      "imagem": "assets/products/paleta.png"
+    },
+    {
+      "id": 37,
+      "nome": "Segurador de Poeira para furar parede",
+      "categoria": "Ferramentas",
+      "parceiro": "LuviLet3D",
+      "isActive":true,
+      "preco": 15,
+      "imagem": "assets/products/furador de parede.png"
+    },
+    {
+      "id": 36,
+      "nome": "Caixa Organizadora Empilhaveis",
+      "categoria": "Utilitários",
+      "parceiro": "LuviLet3D",
+      "isActive":true,
+      "preco": 25,
+      "imagem": "assets/products/caixas empilhaveis.png"
+    },
     {
       "id": 35,
       "nome": "Trava de Gavetas para Crinças e Pets",
@@ -87,7 +132,7 @@
       "nome": "Chave de Acesso para Manutenção de Registro",
       "categoria": "Ferramentas",
       "parceiro": "LuviLet3D",
-      "preco": 1,
+      "preco": 9.9,
       "imagem": "assets/products/chave de registro.png"
     },
     {
@@ -143,7 +188,8 @@
       "nome": "Boneco Articulado Humanoide Montável",
       "categoria": "Brinquedos",
       "parceiro": "LuviLet3D",
-      "preco": 1,
+      "isActive": true,
+      "preco": 25,
       "imagem": "assets/products/dummy.jpg"
     },
     {

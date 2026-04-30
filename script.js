@@ -46,7 +46,7 @@ function filtrar() {
         const matchBusca = normalizar(item.nome).includes(busca);
         const matchCat = cat === "" || item.categoria === cat;
         const matchParc = parc === "" || item.parceiro === parc;
-        return matchBusca && matchCat && matchParc;
+        return matchBusca && matchCat && matchParc && item.isActive;
     });
 
     render(filtrados);
