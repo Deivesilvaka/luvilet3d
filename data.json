@@ -8,7 +8,7 @@
       "categoria": "Suportes",
       "parceiro": "LuviLet3D",
       "isActive":true,
-      "preco": 20,
+      "preco": 18,
       "imagem": "assets/products/suporte controle fone.png"
     },
     {
@@ -17,7 +17,7 @@
       "categoria": "Suportes",
       "parceiro": "LuviLet3D",
       "isActive":true,
-      "preco": 30,
+      "preco": 25,
       "imagem": "assets/products/suporte dois controles.png"
     },
     {
@@ -35,16 +35,16 @@
       "categoria": "Ferramentas",
       "parceiro": "LuviLet3D",
       "isActive":true,
-      "preco": 15,
+      "preco": 13,
       "imagem": "assets/products/furador de parede.png"
     },
     {
       "id": 36,
-      "nome": "Caixa Organizadora Empilhaveis",
+      "nome": "Caixa Organizadora Empilhaveis (Personalizavel)",
       "categoria": "Utilitários",
       "parceiro": "LuviLet3D",
       "isActive":true,
-      "preco": 25,
+      "preco": 22,
       "imagem": "assets/products/caixas empilhaveis.png"
     },
     {
@@ -189,7 +189,7 @@
       "categoria": "Brinquedos",
       "parceiro": "LuviLet3D",
       "isActive": true,
-      "preco": 25,
+      "preco": 22,
       "imagem": "assets/products/dummy.jpg"
     },
     {
