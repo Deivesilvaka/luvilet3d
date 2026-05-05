@@ -4,7 +4,7 @@
   "produtos": [
     {
       "id": 40,
-      "nome": "Suporte de Parede para Controle e fone ou Controle",
+      "nome": "Suporte de Parede para Controle e/ou Fone",
       "categoria": "Suportes",
       "parceiro": "LuviLet3D",
       "isActive":true,
@@ -13,7 +13,7 @@
     },
     {
       "id": 39,
-      "nome": "Suporte de Parede para Dois controles",
+      "nome": "Suporte de Parede para controles",
       "categoria": "Suportes",
       "parceiro": "LuviLet3D",
       "isActive":true,
@@ -40,7 +40,7 @@
     },
     {
       "id": 36,
-      "nome": "Caixa Organizadora Empilhaveis (Personalizavel)",
+      "nome": "Caixa Organizadora Empilhavel (Tamanhos personalizaveis)",
       "categoria": "Utilitários",
       "parceiro": "LuviLet3D",
       "isActive":true,
@@ -185,7 +185,7 @@
     },
     {
       "id": 14,
-      "nome": "Boneco Articulado Humanoide Montável",
+      "nome": "Boneco Articulado para Montar",
       "categoria": "Brinquedos",
       "parceiro": "LuviLet3D",
       "isActive": true,
