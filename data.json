@@ -1,7 +1,16 @@
 {
-  "categorias": ["Ferramentas", "Utilitários", "Suportes", "Brinquedos"],
+  "categorias": ["Ferramentas", "Utilitários", "Suportes", "Brinquedos", "Chaveiros"],
   "parceiros": ["LuviLet3D"],
   "produtos": [
+    {
+      "id": 41,
+      "nome": "Chaveiro Nossa Senhora",
+      "categoria": "Chaveiros",
+      "parceiro": "LuviLet3D",
+      "isActive":true,
+      "preco": 12,
+      "imagem": "assets/products/chaveiro nossa senhora.png"
+    },
     {
       "id": 40,
       "nome": "Suporte de Parede para Controles e Periféricos",
