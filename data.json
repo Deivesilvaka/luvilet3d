@@ -3,6 +3,15 @@
   "parceiros": ["LuviLet3D"],
   "produtos": [
     {
+      "id": 42,
+      "nome": "Porta Relógio Modelo Único",
+      "categoria": "Utilitários",
+      "parceiro": "LuviLet3D",
+      "isActive":true,
+      "preco": 15,
+      "imagem": "assets/products/suporte de relógio.jpeg"
+    },
+    {
       "id": 41,
       "nome": "Chaveiro Nossa Senhora",
       "categoria": "Chaveiros",
