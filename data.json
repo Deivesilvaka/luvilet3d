@@ -3,6 +3,15 @@
   "parceiros": ["LuviLet3D"],
   "produtos": [
     {
+      "id": 45,
+      "nome": "Suporte de parede para dock Nintendo Switch",
+      "categoria": "Gamer",
+      "parceiro": "LuviLet3D",
+      "isActive":true,
+      "preco": 24.90,
+      "imagem": "assets/products/base parede dock.png"
+    },
+    {
       "id": 44,
       "nome": "Grip para Joycon L ou R",
       "categoria": "Gamer",
