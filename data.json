@@ -1,7 +1,25 @@
 {
-  "categorias": ["Ferramentas", "Utilitários", "Suportes", "Brinquedos", "Chaveiros"],
+  "categorias": ["Ferramentas", "Utilitários", "Suportes", "Brinquedos", "Chaveiros", "Gamer"],
   "parceiros": ["LuviLet3D"],
   "produtos": [
+    {
+      "id": 44,
+      "nome": "Grip para Joycon L ou R",
+      "categoria": "Gamer",
+      "parceiro": "LuviLet3D",
+      "isActive":true,
+      "preco": 29.90,
+      "imagem": "assets/products/grip joycon.png"
+    },
+    {
+      "id": 43,
+      "nome": "Grip Pro para Joycon L ou R",
+      "categoria": "Gamer",
+      "parceiro": "LuviLet3D",
+      "isActive":true,
+      "preco": 39.90,
+      "imagem": "assets/products/grip joycon pro.png"
+    },
     {
       "id": 42,
       "nome": "Porta Relógio Modelo Único",
@@ -23,7 +41,7 @@
     {
       "id": 40,
       "nome": "Suporte de Parede para Controles e Periféricos",
-      "categoria": "Suportes",
+      "categoria": "Gamer",
       "parceiro": "LuviLet3D",
       "isActive":true,
       "preco": 18,
@@ -32,7 +50,7 @@
     {
       "id": 39,
       "nome": "Suporte de Parede para controles",
-      "categoria": "Suportes",
+      "categoria": "Gamer",
       "parceiro": "LuviLet3D",
       "isActive":true,
       "preco": 25,
@@ -90,14 +108,6 @@
       "imagem": "assets/products/suporte simples escova de dentes e barbeador.png"
     },
     {
-      "id": 32,
-      "nome": "Separador de Gemas e Claras de Ovos",
-      "categoria": "Cozinha",
-      "parceiro": "LuviLet3D",
-      "preco": 1,
-      "imagem": "assets/products/separador ovo.png"
-    },
-    {
       "id": 1,
       "nome": "Comedouro e Tigela Elevado para Cachorros e Gatos",
       "categoria": "Pet",
@@ -144,14 +154,6 @@
       "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/caixas variadas.jpg"
-    },
-    {
-      "id": 7,
-      "nome": "Chave de Acesso para Manutenção de Registro",
-      "categoria": "Ferramentas",
-      "parceiro": "LuviLet3D",
-      "preco": 9.9,
-      "imagem": "assets/products/chave de registro.png"
     },
     {
       "id": 8,
