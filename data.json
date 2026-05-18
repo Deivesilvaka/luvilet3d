@@ -8,6 +8,15 @@
       "categoria": "Suportes",
       "parceiro": "LuviLet3D",
       "isActive":true,
+      "preco": 1.99,
+      "imagem": "assets/products/suporte celular cartao.png"
+    },
+    {
+      "id": 46,
+      "nome": "Suporte para Celular Pequeno",
+      "categoria": "Suportes",
+      "parceiro": "LuviLet3D",
+      "isActive":true,
       "preco": 8.90,
       "imagem": "assets/products/suporte celular.png"
     },
