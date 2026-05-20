@@ -3,6 +3,15 @@
   "parceiros": ["LuviLet3D"],
   "produtos": [
     {
+      "id": 8,
+      "nome": "Chaveiro Porta Batom Estilo Copo Stanley + Chaveiro Com seu Nome",
+      "categoria": "Chaveiros",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "preco": 19.90,
+      "imagem": "assets/products/chaveiro copo.png"
+    },
+    {
       "id": 46,
       "nome": "Suporte para Celular Formato Cartão",
       "categoria": "Suportes",
@@ -181,14 +190,6 @@
       "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/caixas variadas.jpg"
-    },
-    {
-      "id": 8,
-      "nome": "Chaveiro Copo para Batom",
-      "categoria": "Chaveiros",
-      "parceiro": "LuviLet3D",
-      "preco": 1,
-      "imagem": "assets/products/chaveiro copo.png"
     },
     {
       "id": 9,
