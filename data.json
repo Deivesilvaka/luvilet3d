@@ -233,12 +233,12 @@
     },
     {
       "id": 14,
-      "nome": "Boneco Articulado para Montar",
+      "nome": "Boneco Articulado para Montar + Kit de Armas",
       "categoria": "Brinquedos",
       "parceiro": "LuviLet3D",
       "isActive": true,
-      "preco": 20,
-      "imagem": "assets/products/dummy.jpg"
+      "preco": 45,
+      "imagem": "assets/products/dummy 13 weapon.png"
     },
     {
       "id": 15,
