@@ -3,6 +3,15 @@
   "parceiros": ["LuviLet3D"],
   "produtos": [
     {
+      "id": 48,
+      "nome": "Kit 4 Ganchos de Vassoura",
+      "categoria": "Suportes",
+      "parceiro": "LuviLet3D",
+      "isActive":true,
+      "preco": 35.50,
+      "imagem": "assets/products/gancho de vassoura.png"
+    },
+    {
       "id": 8,
       "nome": "Chaveiro Porta Batom Estilo Copo Stanley + Chaveiro Com seu Nome",
       "categoria": "Chaveiros",
@@ -12,7 +21,7 @@
       "imagem": "assets/products/chaveiro copo.png"
     },
     {
-      "id": 46,
+      "id": 47,
       "nome": "Suporte para Celular Formato Cartão",
       "categoria": "Suportes",
       "parceiro": "LuviLet3D",
