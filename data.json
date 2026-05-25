@@ -7,7 +7,7 @@
       "nome": "Kit 4 Ganchos de Vassoura",
       "categoria": "Suportes",
       "parceiro": "LuviLet3D",
-      "isActive":true,
+      "isActive": false,
       "preco": 35.50,
       "imagem": "assets/products/gancho de vassoura.png"
     },
@@ -49,20 +49,20 @@
     },
     {
       "id": 44,
-      "nome": "Grip para Joycon L ou R",
+      "nome": "Par de Grips para Joycon L e R",
       "categoria": "Gamer",
       "parceiro": "LuviLet3D",
       "isActive":true,
-      "preco": 29.90,
+      "preco": 49.90,
       "imagem": "assets/products/grip joycon.png"
     },
     {
       "id": 43,
-      "nome": "Grip Pro para Joycon L ou R",
+      "nome": "Par de Grips Estilo Pro Controller para Joycon L e R",
       "categoria": "Gamer",
       "parceiro": "LuviLet3D",
       "isActive":true,
-      "preco": 39.90,
+      "preco": 69.90,
       "imagem": "assets/products/grip joycon pro.png"
     },
     {
