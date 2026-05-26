@@ -1,7 +1,16 @@
 {
-  "categorias": ["Ferramentas", "Utilitários", "Suportes", "Brinquedos", "Chaveiros", "Gamer"],
+  "categorias": ["Ferramentas", "Utilitários", "Suportes", "Brinquedos", "Chaveiros", "Gamer", "Antiestresse"],
   "parceiros": ["LuviLet3D"],
   "produtos": [
+    {
+      "id": 49,
+      "nome": "Brinquedo Antiestresse 12 em 1",
+      "categoria": "Antiestresse",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "preco": 36.49,
+      "imagem": "assets/products/12 em 1.png"
+    },
     {
       "id": 48,
       "nome": "Kit 4 Ganchos de Vassoura",
