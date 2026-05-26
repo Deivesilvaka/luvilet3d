@@ -3,6 +3,42 @@
   "parceiros": ["LuviLet3D"],
   "produtos": [
     {
+      "id": 53,
+      "nome": "Cubo Infinito Antiestresse",
+      "categoria": "Antiestresse",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "preco": 22,
+      "imagem": "assets/products/cubo infinito.png"
+    },
+    {
+      "id": 52,
+      "nome": "Chaveiro Coração Antiestresse 2 em 1",
+      "categoria": "Antiestresse",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "preco": 12,
+      "imagem": "assets/products/coracao anti stress.png"
+    },
+    {
+      "id": 51,
+      "nome": "Chaveiro de Alavanca de Marcha Antiestresse",
+      "categoria": "Antiestresse",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "preco": 12,
+      "imagem": "assets/products/alavanca de marcha.gif"
+    },
+    {
+      "id": 50,
+      "nome": "Brinquedo 3 em 1",
+      "categoria": "Antiestresse",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "preco": 13.99,
+      "imagem": "assets/products/3 em 1.png"
+    },
+    {
       "id": 49,
       "nome": "Brinquedo Antiestresse 12 em 1",
       "categoria": "Antiestresse",
