@@ -1,7 +1,16 @@
 {
-  "categorias": ["Ferramentas", "Utilitários", "Suportes", "Brinquedos", "Chaveiros", "Gamer", "Antiestresse"],
+  "categorias": ["Ferramentas", "Utilitários", "Suportes", "Brinquedos", "Chaveiros", "Gamer", "Antiestresse", "Decoração"],
   "parceiros": ["LuviLet3D"],
   "produtos": [
+    {
+      "id": 54,
+      "nome": "Placa Cantinho do Café",
+      "categoria": "Decoração",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "preco": 32.9,
+      "imagem": "assets/products/cantinho do cafe.png"
+    },
     {
       "id": 53,
       "nome": "Cubo Infinito Antiestresse",
