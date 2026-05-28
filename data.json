@@ -3,6 +3,15 @@
   "parceiros": ["LuviLet3D"],
   "produtos": [
     {
+      "id": 56,
+      "nome": "Kit Decoração 2 Bobs Vasos.",
+      "categoria": "Decoração",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "preco": 37.8,
+      "imagem": "assets/products/2 bobs.png"
+    },
+    {
       "id": 55,
       "nome": "Decoração Cantinho do Café Placa + Xícara Suspensa + 2 Bobs Vasos.",
       "categoria": "Decoração",
