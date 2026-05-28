@@ -421,6 +421,32 @@ input:focus, select:focus {
     font-weight: 600;
 }
 
+#btn-personalizado {
+    padding: 12px 20px;
+    border: 2px solid var(--laranja);
+    background-color: var(--laranja);
+    color: white;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    width: 240px; /* Mantém o mesmo tamanho dos inputs do cabeçalho */
+}
+
+#btn-personalizado:hover {
+    background-color: transparent;
+    color: var(--laranja);
+    box-shadow: 0 0 12px rgba(255, 102, 0, 0.4);
+}
+
+/* Ajuste rápido para garantir que tudo fique bem distribuído em telas menores */
+@media (max-width: 600px) {
+    #btn-personalizado {
+        width: 100%;
+    }
+}
+
 #toast.show { visibility: visible; animation: fadein 0.4s, fadeout 0.4s 2.6s; }
 
 @keyframes fadein { from {bottom: 0; opacity: 0;} to {bottom: 30px; opacity: 1;} }

@@ -1,6 +1,7 @@
 let produtosData = [];
 let carrinho = [];
 let itemPendente = null; // Guarda o produto que está sendo configurado no modal
+const fone = "5585989951767";
 
 // 1. Normalização para busca sem acentos
 const normalizar = (txt) => txt.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -312,8 +313,26 @@ function abrirCheckout() {
         resumo += ` _(5% de desconto incluso)_`;
     }
 
-    const fone = "5585989951767";
     window.open(`https://api.whatsapp.com/send?phone=${fone}&text=${encodeURIComponent(resumo)}`, '_blank');
+}
+
+// Funções para o componente de confirmação personalizado
+function abrirModalPersonalizado() {
+    document.getElementById('modal-personalizado').style.display = 'flex';
+}
+
+function confirmarRedirecionamentoPersonalizado() {
+    document.getElementById('modal-personalizado').style.display = 'none';
+    
+    const mensagem = "Olá! Gostaria de fazer um orçamento para um pedido personalizado com a LuviLet3D.";
+    
+    window.open(`https://api.whatsapp.com/send?phone=${fone}&text=${encodeURIComponent(mensagem)}`, '_blank');
+}
+
+function cancelarRedirecionamentoPersonalizado() {
+    document.getElementById('modal-personalizado').style.display = 'none';
+    // Utiliza o seu sistema de Toast nativo para avisar a tela
+    mostrarToast("Operação cancelada.", 3000);
 }
 
 window.onload = init;

@@ -27,6 +27,7 @@
         <select id="filtroParceiro" onchange="filtrar()">
             <option value="">Todos os Parceiros</option>
         </select>
+        <button id="btn-personalizado" onclick="abrirModalPersonalizado()">✨ Pedido Personalizado</button>
     </div>
 </header>
 
@@ -117,6 +118,19 @@
                 <button class="btn-cancelar" style="background:#64748b; color: white;" onclick="limparFormEnd()">Limpar</button>
                 <button class="btn-cancelar" onclick="fecharModalEnd()">Fechar</button>
             </div>
+        </div>
+    </div>
+</div>
+
+<div id="modal-personalizado" class="modal">
+    <div class="modal-content">
+        <h3 style="color: var(--preto); font-size: 1.4rem; margin-bottom: 15px;">✨ Solicitar Projeto</h3>
+        <p style="color: #475569; font-size: 0.95rem; margin-bottom: 25px; line-height: 1.5;">
+            Você será redirecionado para o WhatsApp para solicitar o seu projeto ou produto personalizado. Deseja continuar?
+        </p>
+        <div class="modal-btns">
+            <button class="btn-confirmar" onclick="confirmarRedirecionamentoPersonalizado()">Sim, quero ir</button>
+            <button class="btn-cancelar" onclick="cancelarRedirecionamentoPersonalizado()">Não, voltar</button>
         </div>
     </div>
 </div>
