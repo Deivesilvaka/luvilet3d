@@ -3,6 +3,15 @@
   "parceiros": ["LuviLet3D"],
   "produtos": [
     {
+      "id": 55,
+      "nome": "Decoração Cantinho do Café Placa + Xícara Suspensa + 2 Bobs Vasos.",
+      "categoria": "Decoração",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "preco": 59.9,
+      "imagem": "assets/products/cantinho completo.png"
+    },
+    {
       "id": 54,
       "nome": "Placa Cantinho do Café",
       "categoria": "Decoração",
