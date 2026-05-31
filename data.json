@@ -1,7 +1,25 @@
 {
-  "categorias": ["Ferramentas", "Utilitários", "Suportes", "Brinquedos", "Chaveiros", "Gamer", "Antiestresse", "Decoração"],
+  "categorias": ["Ferramentas", "Utilitários", "Suportes", "Brinquedos", "Chaveiros", "Gamer", "Antiestresse", "Decoração", "Dia dos Namorados"],
   "parceiros": ["LuviLet3D"],
   "produtos": [
+    {
+      "id": 57,
+      "nome": "Chaveiro envelope com porta foto 52x42mm.",
+      "categoria": "Dia dos Namorados",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "preco": 18,
+      "imagem": "assets/products/chaveiro carta.png"
+    },
+    {
+      "id": 57,
+      "nome": "Flores Decorativas para Enfeite (Unidade).",
+      "categoria": "Dia dos Namorados",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "preco": 3.94,
+      "imagem": "assets/products/flores decorativas.png"
+    },
     {
       "id": 56,
       "nome": "Kit Decoração 2 Bobs Vasos.",
@@ -41,7 +59,7 @@
     {
       "id": 52,
       "nome": "Chaveiro Coração Antiestresse 2 em 1",
-      "categoria": "Antiestresse",
+      "categoria": "Dia dos Namorados",
       "parceiro": "LuviLet3D",
       "isActive": true,
       "preco": 12,
@@ -58,7 +76,7 @@
     },
     {
       "id": 50,
-      "nome": "Brinquedo 3 em 1",
+      "nome": "Brinquedo Antiestresse 3 em 1",
       "categoria": "Antiestresse",
       "parceiro": "LuviLet3D",
       "isActive": true,
@@ -427,10 +445,11 @@
     },
     {
       "id": 28,
-      "nome": "Caixa para Baralho, Uno, Cardgame e outros",
+      "nome": "Caixa com Suporte Interno para Baralho, Uno e Cardgame",
       "categoria": "Utilitários",
       "parceiro": "LuviLet3D",
-      "preco": 1,
+      "isActive": true,
+      "preco": 35,
       "imagem": "assets/products/caixa uno.png"
     },
     {
