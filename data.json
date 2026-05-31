@@ -3,6 +3,15 @@
   "parceiros": ["LuviLet3D"],
   "produtos": [
     {
+      "id": 58,
+      "nome": "Caixa para alianças com dois espaços 41x41mm.",
+      "categoria": "Dia dos Namorados",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "preco": 15,
+      "imagem": "assets/products/caixa para aneis.png"
+    },
+    {
       "id": 57,
       "nome": "Chaveiro envelope com porta foto 52x42mm.",
       "categoria": "Dia dos Namorados",
