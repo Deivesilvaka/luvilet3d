@@ -3,6 +3,15 @@
   "parceiros": ["LuviLet3D"],
   "produtos": [
     {
+      "id": 59,
+      "nome": "Livro de Fotos com Espaço para 12 Fotos.",
+      "categoria": "Dia dos Namorados",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "preco": 39.90,
+      "imagem": "assets/products/livro fotos.png"
+    },
+    {
       "id": 58,
       "nome": "Caixa para alianças com dois espaços 41x41mm.",
       "categoria": "Dia dos Namorados",
