@@ -1,7 +1,25 @@
 {
-  "categorias": ["Ferramentas", "Utilitários", "Suportes", "Brinquedos", "Chaveiros", "Gamer", "Antiestresse", "Decoração", "Dia dos Namorados"],
+  "categorias": ["Ferramentas", "Utilitários", "Suportes", "Brinquedos", "Chaveiros", "Gamer", "Antiestresse", "Decoração", "Dia dos Namorados", "Religioso"],
   "parceiros": ["LuviLet3D"],
   "produtos": [
+    {
+      "id": 61,
+      "nome": "Cruz Nome Jesus 18cm.",
+      "categoria": "Religioso",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "preco": 20.31,
+      "imagem": "assets/products/cruz jesus.png"
+    },
+    {
+      "id": 60,
+      "nome": "Maria e Jesus Estatua 15cm.",
+      "categoria": "Religioso",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "preco": 33.89,
+      "imagem": "assets/products/maria e jesus.png"
+    },
     {
       "id": 59,
       "nome": "Livro de Fotos com Espaço para 12 Fotos 4x6.",
