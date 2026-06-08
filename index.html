@@ -38,11 +38,15 @@
     🛒 <span id="cart-count">0</span> itens
 </div>
 
-<!-- MODAL QUANTIDADE -->
+<!-- MODAL QUANTIDADE (Atualizado) -->
 <div id="modal-quantidade" class="modal">
     <div class="modal-content">
-        <h3>Quantidade</h3>
-        <p id="nome-prod-modal"></p>
+        <h3>Configurar Produto</h3>
+        <p id="nome-prod-modal" style="font-weight: bold; color: var(--preto);"></p>
+        
+        <!-- NOVO: Container onde as opções de cores serão injetadas -->
+        <div id="container-variantes" style="margin-top: 15px; text-align: left;"></div>
+
         <input type="number" id="input-qtd" value="1" min="1">
         <div class="modal-btns">
             <button class="btn-confirmar" onclick="confirmarAdicao()">Adicionar</button>

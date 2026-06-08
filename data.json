@@ -1,7 +1,19 @@
 {
   "categorias": ["Ferramentas", "Utilitários", "Suportes", "Brinquedos", "Chaveiros", "Gamer", "Antiestresse", "Decoração", "Dia dos Namorados", "Religioso"],
+  "cores": ["Branco", "Preto", "Vermelho", "Verde", "Amarelo", "Purpura", "Marrom", "Madeira", "Rosa Brilhante", "Laranja", "Azul", "Azul Bebê"],
   "parceiros": ["LuviLet3D"],
   "produtos": [
+    {
+      "id": 14,
+      "nome": "Boneco Articulado para Montar + Kit de Armas",
+      "categoria": "Brinquedos",
+      "parceiro": "LuviLet3D",
+      "preco": 37,
+      "isActive": true,
+      "colorVariant": true,
+      "objects": ["Articulações", "Armadura"],
+      "imagem": "assets/products/dummy 13 weapon.png"
+    },
     {
       "id": 62,
       "nome": "Kit de 3 Facas CS:GO: M9 Baioneta, Karambit, Butterfly.",
@@ -17,6 +29,7 @@
       "categoria": "Religioso",
       "parceiro": "LuviLet3D",
       "isActive": true,
+      "colorVariant": true,
       "preco": 20.31,
       "imagem": "assets/products/cruz jesus.png"
     },
@@ -26,6 +39,7 @@
       "categoria": "Religioso",
       "parceiro": "LuviLet3D",
       "isActive": true,
+      "colorVariant": true,
       "preco": 33.89,
       "imagem": "assets/products/maria e jesus.png"
     },
@@ -35,6 +49,8 @@
       "categoria": "Dia dos Namorados",
       "parceiro": "LuviLet3D",
       "isActive": true,
+      "colorVariant": true,
+      "objects": ["Capa", "Páginas"],
       "preco": 39.90,
       "imagem": "assets/products/livro fotos.png"
     },
@@ -44,6 +60,7 @@
       "categoria": "Dia dos Namorados",
       "parceiro": "LuviLet3D",
       "isActive": true,
+      "colorVariant": true,
       "preco": 15,
       "imagem": "assets/products/caixa para aneis.png"
     },
@@ -53,6 +70,8 @@
       "categoria": "Dia dos Namorados",
       "parceiro": "LuviLet3D",
       "isActive": true,
+      "colorVariant": true,
+      "objects":["Carta e suporte de foto", "Coração"],
       "preco": 18,
       "imagem": "assets/products/chaveiro carta.png"
     },
@@ -62,6 +81,7 @@
       "categoria": "Dia dos Namorados",
       "parceiro": "LuviLet3D",
       "isActive": true,
+      "colorVariant": true,
       "preco": 3.94,
       "imagem": "assets/products/flores decorativas.png"
     },
@@ -71,6 +91,7 @@
       "categoria": "Decoração",
       "parceiro": "LuviLet3D",
       "isActive": true,
+      "colorVariant": true,
       "preco": 37.8,
       "imagem": "assets/products/2 bobs.png"
     },
@@ -80,6 +101,8 @@
       "categoria": "Decoração",
       "parceiro": "LuviLet3D",
       "isActive": true,
+      "colorVariant": true,
+      "objects":["Placa", "Bobs", "Xícara Grande", "Xícaras Pequenas e Base"],
       "preco": 59.9,
       "imagem": "assets/products/cantinho completo.png"
     },
@@ -89,6 +112,7 @@
       "categoria": "Decoração",
       "parceiro": "LuviLet3D",
       "isActive": true,
+      "colorVariant": true,
       "preco": 32.9,
       "imagem": "assets/products/cantinho do cafe.png"
     },
@@ -98,6 +122,7 @@
       "categoria": "Antiestresse",
       "parceiro": "LuviLet3D",
       "isActive": true,
+      "colorVariant": true,
       "preco": 22,
       "imagem": "assets/products/cubo infinito.png"
     },
@@ -107,6 +132,7 @@
       "categoria": "Dia dos Namorados",
       "parceiro": "LuviLet3D",
       "isActive": true,
+      "colorVariant": true,
       "preco": 12,
       "imagem": "assets/products/coracao anti stress.png"
     },
@@ -116,6 +142,7 @@
       "categoria": "Antiestresse",
       "parceiro": "LuviLet3D",
       "isActive": true,
+      "colorVariant": true,
       "preco": 12,
       "imagem": "assets/products/alavanca de marcha.gif"
     },
@@ -125,6 +152,8 @@
       "categoria": "Antiestresse",
       "parceiro": "LuviLet3D",
       "isActive": true,
+      "colorVariant": true,
+      "objects":["Caixa", "Botões"],
       "preco": 13.99,
       "imagem": "assets/products/3 em 1.png"
     },
@@ -134,6 +163,7 @@
       "categoria": "Antiestresse",
       "parceiro": "LuviLet3D",
       "isActive": true,
+      "colorVariant": true,
       "preco": 36.79,
       "imagem": "assets/products/12 em 1.png"
     },
@@ -152,6 +182,8 @@
       "categoria": "Chaveiros",
       "parceiro": "LuviLet3D",
       "isActive": true,
+      "colorVariant": true,
+      "objects":["Copo", "Tampa"],
       "preco": 19.90,
       "imagem": "assets/products/chaveiro copo.png"
     },
@@ -161,6 +193,7 @@
       "categoria": "Suportes",
       "parceiro": "LuviLet3D",
       "isActive":true,
+      "colorVariant": true,
       "preco": 1.99,
       "imagem": "assets/products/suporte celular cartao.png"
     },
@@ -170,6 +203,7 @@
       "categoria": "Suportes",
       "parceiro": "LuviLet3D",
       "isActive":true,
+      "colorVariant": true,
       "preco": 8.90,
       "imagem": "assets/products/suporte celular.png"
     },
@@ -179,6 +213,7 @@
       "categoria": "Gamer",
       "parceiro": "LuviLet3D",
       "isActive":true,
+      "colorVariant": true,
       "preco": 24.90,
       "imagem": "assets/products/base parede dock.png"
     },
@@ -188,6 +223,7 @@
       "categoria": "Gamer",
       "parceiro": "LuviLet3D",
       "isActive":true,
+      "colorVariant": true,
       "preco": 49.90,
       "imagem": "assets/products/grip joycon.png"
     },
@@ -197,6 +233,7 @@
       "categoria": "Gamer",
       "parceiro": "LuviLet3D",
       "isActive":true,
+      "colorVariant": true,
       "preco": 69.90,
       "imagem": "assets/products/grip joycon pro.png"
     },
@@ -206,6 +243,7 @@
       "categoria": "Utilitários",
       "parceiro": "LuviLet3D",
       "isActive":true,
+      "colorVariant": true,
       "preco": 15,
       "imagem": "assets/products/suporte de relógio.jpeg"
     },
@@ -215,6 +253,8 @@
       "categoria": "Chaveiros",
       "parceiro": "LuviLet3D",
       "isActive":true,
+      "colorVariant": true,
+      "objects":["Base", "Contorno"],
       "preco": 12,
       "imagem": "assets/products/chaveiro nossa senhora.png"
     },
@@ -223,6 +263,7 @@
       "nome": "Suporte de Parede para Controles e Periféricos",
       "categoria": "Gamer",
       "parceiro": "LuviLet3D",
+      "colorVariant": true,
       "isActive":true,
       "preco": 18,
       "imagem": "assets/products/suporte controle fone.png"
@@ -233,6 +274,7 @@
       "categoria": "Gamer",
       "parceiro": "LuviLet3D",
       "isActive":true,
+      "colorVariant": true,
       "preco": 25,
       "imagem": "assets/products/suporte dois controles.png"
     },
@@ -242,6 +284,7 @@
       "categoria": "Utilitários",
       "parceiro": "LuviLet3D",
       "isActive":true,
+      "colorVariant": true,
       "preco": 13,
       "imagem": "assets/products/paleta.png"
     },
@@ -251,6 +294,7 @@
       "categoria": "Ferramentas",
       "parceiro": "LuviLet3D",
       "isActive":true,
+      "colorVariant": true,
       "preco": 13,
       "imagem": "assets/products/furador de parede.png"
     },
@@ -260,6 +304,7 @@
       "categoria": "Utilitários",
       "parceiro": "LuviLet3D",
       "isActive":true,
+      "colorVariant": true,
       "preco": 24,
       "imagem": "assets/products/caixas empilhaveis.png"
     },
@@ -374,15 +419,6 @@
       "parceiro": "LuviLet3D",
       "preco": 1,
       "imagem": "assets/products/cortador_biscoitos_pascoa.png"
-    },
-    {
-      "id": 14,
-      "nome": "Boneco Articulado para Montar + Kit de Armas",
-      "categoria": "Brinquedos",
-      "parceiro": "LuviLet3D",
-      "isActive": true,
-      "preco": 37,
-      "imagem": "assets/products/dummy 13 weapon.png"
     },
     {
       "id": 15,

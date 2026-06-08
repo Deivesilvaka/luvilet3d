@@ -449,6 +449,23 @@ input:focus, select:focus {
 
 #toast.show { visibility: visible; animation: fadein 0.4s, fadeout 0.4s 2.6s; }
 
+/* Estilo para os seletores de cores dentro do modal */
+#container-variantes select {
+    width: 100% !important;
+    color: var(--preto);
+    background: #f8fafc;
+    border: 1px solid var(--borda);
+    margin: 4px 0 12px 0;
+}
+#container-variantes select:focus {
+    border-color: var(--laranja);
+}
+#container-variantes label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--preto-suave);
+}
+
 @keyframes fadein { from {bottom: 0; opacity: 0;} to {bottom: 30px; opacity: 1;} }
 @keyframes fadeout { from {bottom: 30px; opacity: 1;} to {bottom: 0; opacity: 0;} }
 

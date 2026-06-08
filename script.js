@@ -1,5 +1,6 @@
 let produtosData = [];
 let carrinho = [];
+let coresDisponiveis = [];
 let itemPendente = null; // Guarda o produto que está sendo configurado no modal
 const fone = "5585989951767";
 
@@ -12,6 +13,7 @@ async function init() {
         const resp = await fetch('data.json?t=' + new Date().getTime());
         const data = await resp.json();
         produtosData = data.produtos;
+        coresDisponiveis = data.cores;
 
         carregarEnderecoSalvo();
 
@@ -82,13 +84,47 @@ function render(lista) {
     `).join('');
 }
 
-// 5. Aciona o modal de quantidade
+// 5. Aciona o modal de quantidade e configura variantes de cor
 function addCart(id) {
     const prod = produtosData.find(p => p.id === id);
     itemPendente = prod;
     
     document.getElementById('nome-prod-modal').innerText = prod.nome;
     document.getElementById('input-qtd').value = 1;
+    
+    const containerVariantes = document.getElementById('container-variantes');
+    containerVariantes.innerHTML = ""; // Limpa seleções anteriores
+
+    // Verifica se o produto aceita variantes de cor
+    if (prod.colorVariant) {
+        // Opções de cores baseadas na sua base de dados
+        const opcoesCores = coresDisponiveis.map(cor => `<option value="${cor}">${cor}</option>`).join('');
+
+        if (prod.objects && prod.objects.length > 0) {
+            // Caso 1: Tem partes específicas (ex: Articulações, Armadura)
+            prod.objects.forEach(objeto => {
+                containerVariantes.innerHTML += `
+                    <div class="grupo-variante">
+                        <label>Cor da parte *${objeto}*:</label>
+                        <select class="select-cor-variante" data-objeto="${objeto}">
+                            ${opcoesCores}
+                        </select>
+                    </div>
+                `;
+            });
+        } else {
+            // Caso 2: Só tem a flag colorVariant (escolhe uma cor para o produto todo)
+            containerVariantes.innerHTML += `
+                <div class="grupo-variante">
+                    <label>Cor do Produto:</label>
+                    <select class="select-cor-variante" data-objeto="Produto Completo">
+                        ${opcoesCores}
+                    </select>
+                </div>
+            `;
+        }
+    }
+
     document.getElementById('modal-quantidade').style.display = 'flex';
 }
 
@@ -98,18 +134,29 @@ function fecharModal() {
     mostrarToast("Produto não adicionado", 2000);
 }
 
-// 7. Confirma e injeta o item no array do carrinho inteligente
+// 7. Confirma e injeta o item com suas respectivas cores no carrinho
 function confirmarAdicao() {
     const qtd = parseInt(document.getElementById('input-qtd').value);
     
     if (qtd > 0) {
-        // Verifica se o item já existe no carrinho para somar a quantidade em vez de duplicar linhas
-        const itemExistente = carrinho.find(item => item.id === itemPendente.id);
+        // Coleta as cores selecionadas no modal
+        let coresEscolhidas = {};
+        const selects = document.querySelectorAll('.select-cor-variante');
+        selects.forEach(select => {
+            const objeto = select.getAttribute('data-objeto');
+            coresEscolhidas[objeto] = select.value;
+        });
+
+        // IMPORTANTE: Para produtos com cores diferentes, tratamos como itens separados no carrinho
+        const itemExistente = carrinho.find(item => 
+            item.id === itemPendente.id && 
+            JSON.stringify(item.cores) === JSON.stringify(coresEscolhidas)
+        );
         
         if (itemExistente) {
             itemExistente.qtd += qtd;
         } else {
-            carrinho.push({ ...itemPendente, qtd: qtd });
+            carrinho.push({ ...itemPendente, qtd: qtd, cores: coresEscolhidas });
         }
         
         atualizarContadorVisual();
@@ -145,7 +192,7 @@ function fecharCart() {
     document.getElementById('modal-cart').style.display = 'none';
 }
 
-// 10. Renderizar a lista real de compras no Modal
+// 10. Renderizar a lista real de compras no Modal (Mostrando as cores escolhidas)
 function renderizarCarrinho() {
     toggleParcelas();
     const lista = document.getElementById('lista-carrinho');
@@ -161,11 +208,23 @@ function renderizarCarrinho() {
     lista.innerHTML = carrinho.map((item, index) => {
         const subtotal = item.preco * item.qtd;
         totalGeral += subtotal;
+
+        // Gera o texto das cores formatado se elas existirem
+        let textoCores = "";
+        if (item.cores && Object.keys(item.cores).length > 0) {
+            textoCores = `<div style="font-size: 0.8rem; color: #64748b; margin-top: 4px;">`;
+            for (const [parte, cor] of Object.entries(item.cores)) {
+                textoCores += `• ${parte}: <b>${cor}</b><br>`;
+            }
+            textoCores += `</div>`;
+        }
+
         return `
             <div class="item-cart">
                 <img src="${item.imagem}" alt="${item.nome}">
                 <div class="item-cart-info">
                     <h4>${item.nome}</h4>
+                    ${textoCores} <!-- Injeção das cores escolhidas -->
                     <p>R$ ${subtotal.toFixed(2)}</p>
                 </div>
                 <div class="item-cart-acoes">
@@ -275,7 +334,6 @@ function carregarEnderecoSalvo() {
     }
 }
 
-// 17. Fechamento de pedido e redirecionamento de texto estruturado para o WhatsApp
 function abrirCheckout() {
     if(carrinho.length === 0) return alert("Seu carrinho está vazio!");
     
@@ -286,8 +344,16 @@ function abrirCheckout() {
     carrinho.forEach(item => {
         const subtotalItem = item.preco * item.qtd;
         resumo += `📦 *${item.nome}*\n` +
-                  `• Qtd: ${item.qtd}x\n` +
-                  `• Subtotal: R$ ${subtotalItem.toFixed(2)}\n\n`;
+                  `• Qtd: ${item.qtd}x\n`;
+        
+        // NOVO: Adiciona os detalhes das cores selecionadas no corpo do texto do Whats
+        if (item.cores && Object.keys(item.cores).length > 0) {
+            for (const [parte, cor] of Object.entries(item.cores)) {
+                resumo += `  └ ${parte}: ${cor}\n`;
+            }
+        }
+
+        resumo += `• Subtotal: R$ ${subtotalItem.toFixed(2)}\n\n`;
         total += subtotalItem;
     });
 
