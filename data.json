@@ -4,6 +4,17 @@
   "parceiros": ["LuviLet3D"],
   "produtos": [
     {
+      "id": 63,
+      "nome": "Pião de Batalha Estilo Bayblade.",
+      "categoria": "Brinquedos",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "colorVariant": true,
+      "objects": ["Lançador", "Pião", "Arruela do Pião"],
+      "preco": 28.90,
+      "imagem": "assets/products/bayblade.gif"
+    },
+    {
       "id": 14,
       "nome": "Boneco Articulado para Montar + Kit de Armas",
       "categoria": "Brinquedos",
