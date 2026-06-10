@@ -4,6 +4,16 @@
   "parceiros": ["LuviLet3D"],
   "produtos": [
     {
+      "id": 64,
+      "nome": "Borboleta Decorativa Montável.",
+      "categoria": "Decoração",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "colorVariant": true,
+      "preco": 19.90,
+      "imagem": "assets/products/borboleta.png"
+    },
+    {
       "id": 63,
       "nome": "Pião de Batalha Estilo Bayblade.",
       "categoria": "Brinquedos",
