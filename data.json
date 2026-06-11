@@ -4,6 +4,17 @@
   "parceiros": ["LuviLet3D"],
   "produtos": [
     {
+      "id": 67,
+      "nome": "Kit Montável Quebra Cabeça Carregadeira.",
+      "categoria": "Brinquedos",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "colorVariant": true,
+      "objects":["Carroceria", "Mecânica"],
+      "preco": 19.90,
+      "imagem": "assets/products/cartao carregadeira.png"
+    },
+    {
       "id": 66,
       "nome": "Kit Montável Quebra Cabeça Escavadeira.",
       "categoria": "Brinquedos",
