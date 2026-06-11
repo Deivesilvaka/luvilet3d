@@ -4,6 +4,17 @@
   "parceiros": ["LuviLet3D"],
   "produtos": [
     {
+      "id": 66,
+      "nome": "Kit Montável Quebra Cabeça Escavadeira.",
+      "categoria": "Brinquedos",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "colorVariant": true,
+      "objects":["Carroceria", "Mecânica"],
+      "preco": 19.90,
+      "imagem": "assets/products/cartao escavadeira.png"
+    },
+    {
       "id": 65,
       "nome": "Kit Montável Quebra Cabeça T-Rex.",
       "categoria": "Brinquedos",
