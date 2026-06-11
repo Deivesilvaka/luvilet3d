@@ -4,6 +4,16 @@
   "parceiros": ["LuviLet3D"],
   "produtos": [
     {
+      "id": 65,
+      "nome": "Kit Montável Quebra Cabeça T-Rex.",
+      "categoria": "Brinquedos",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "colorVariant": true,
+      "preco": 19.90,
+      "imagem": "assets/products/cartao dino.png"
+    },
+    {
       "id": 64,
       "nome": "Borboleta Decorativa Montável.",
       "categoria": "Decoração",
