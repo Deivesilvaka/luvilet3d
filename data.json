@@ -1,8 +1,17 @@
 {
-  "categorias": ["Ferramentas", "Utilitários", "Suportes", "Brinquedos", "Chaveiros", "Gamer", "Antiestresse", "Decoração", "Dia dos Namorados", "Religioso"],
+  "categorias": ["Ferramentas", "Utilitários", "Suportes", "Brinquedos", "Chaveiros", "Gamer", "Antiestresse", "Decoração", "Dia dos Namorados", "Religioso", "Anime/Cosplay"],
   "cores": ["Branco", "Preto", "Vermelho", "Verde", "Amarelo", "Purpura", "Marrom", "Madeira", "Rosa Brilhante", "Laranja", "Azul", "Azul Bebê"],
   "parceiros": ["LuviLet3D"],
   "produtos": [
+    {
+      "id": 68,
+      "nome": "Espada Tensa Zangetsu Escala 1:1.",
+      "categoria": "Anime/Cosplay",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "preco": 383.51,
+      "imagem": "assets/products/zangetsu.png"
+    },
     {
       "id": 67,
       "nome": "Kit Montável Quebra Cabeça Carregadeira.",
