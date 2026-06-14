@@ -372,7 +372,7 @@
     },
     {
       "id": 35,
-      "nome": "Trava de Gavetas para Crinças e Pets",
+      "nome": "Kit 5 Trava de Gavetas para Crinças e Pets",
       "categoria": "Segurança",
       "parceiro": "LuviLet3D",
       "preco": 1,
@@ -575,7 +575,8 @@
       "nome": "Suporte de Sacolas Antiqueda",
       "categoria": "Utilitários",
       "parceiro": "LuviLet3D",
-      "preco": 1,
+      "isActive": true,
+      "preco": 29.13,
       "imagem": "assets/products/suporte de sacola anti queda.png"
     },
     {
