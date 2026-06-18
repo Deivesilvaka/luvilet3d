@@ -1,8 +1,17 @@
 {
-  "categorias": ["Ferramentas", "Utilitários", "Suportes", "Brinquedos", "Chaveiros", "Gamer", "Antiestresse", "Decoração", "Dia dos Namorados", "Religioso", "Anime/Cosplay"],
+  "categorias": ["Ferramentas", "Utilitários", "Jogos", "Suportes", "Brinquedos", "Chaveiros", "Gamer", "Antiestresse", "Decoração", "Dia dos Namorados", "Religioso", "Anime/Cosplay"],
   "cores": ["Branco", "Preto", "Vermelho", "Verde", "Amarelo", "Purpura", "Marrom", "Madeira", "Rosa Brilhante", "Laranja", "Azul", "Azul Bebê"],
   "parceiros": ["LuviLet3D"],
   "produtos": [
+    {
+      "id": 69,
+      "nome": "Jogo de Equilibrio de Bonecos 40 peças.",
+      "categoria": "Jogos",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "preco": 62.90,
+      "imagem": "assets/products/stickman.png"
+    },
     {
       "id": 68,
       "nome": "Espada Tensa Zangetsu Escala 1:1.",
