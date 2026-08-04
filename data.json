@@ -4,6 +4,26 @@
   "parceiros": ["LuviLet3D"],
   "produtos": [
     {
+      "id": 71,
+      "nome": "Quebra Cabeça Labirinto Cilíndrico de Nível Fácil.",
+      "categoria": "Jogos",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "colorVariant": true,
+      "preco": 18.38,
+      "imagem": "assets/products/puzzle facil.png"
+    },
+    {
+      "id": 70,
+      "nome": "Quebra Cabeça Labirinto Cilíndrico de Nível Difícil.",
+      "categoria": "Jogos",
+      "parceiro": "LuviLet3D",
+      "isActive": true,
+      "colorVariant": true,
+      "preco": 29.99,
+      "imagem": "assets/products/puzzle dificil.png"
+    },
+    {
       "id": 69,
       "nome": "Jogo de Equilibrio de Bonecos 40 peças.",
       "categoria": "Jogos",
